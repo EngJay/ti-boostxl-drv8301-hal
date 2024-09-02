@@ -1,3 +1,6 @@
+# Generated.
+**/docs/doxygen/**/*.*
+
 # Prerequisites
 *.d
 
