@@ -1,6 +1,11 @@
 # Generated.
 **/docs/doxygen/**/*.*
 
+# Dependencies auto-downloaded / compiled by Meson.
+# Ignore everything in the subprojects directory except wrap files.
+subprojects/*
+!subprojects/*.wrap
+
 # Prerequisites
 *.d
 
