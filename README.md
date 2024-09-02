@@ -8,6 +8,9 @@ brushless DC drive stage evaluation board.
 This project depends on Git submodules for its build support. To clone the
 project with build support, use the flags to include submodules recursively.
 
+NOTE: The `build-systems` repo remains private because it contains proprietary
+work. Contact the maintainer of the repo with any questions.
+
 ```bash
 > git clone --recurse-submodules <repository-url>
 ```
