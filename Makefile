@@ -142,9 +142,17 @@ CROSS ?=
 
 # Sets the native compile target.
 #
-# Options: 	none (default)
+# Options: 	See the directory of native files in the build-systems repo.
 #
 NATIVE ?=
+
+# Default to native gcc-14 build if neither CROSS nor NATIVE is set.
+# 
+ifeq ($(CROSS),)
+  ifeq ($(NATIVE),)
+    NATIVE := gcc-14
+  endif
+endif
 
 # Enables debug build. 
 #
