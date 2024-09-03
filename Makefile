@@ -135,8 +135,7 @@ LTO ?= 0
 # example, arm:cortex-m7-hardfloat-sp will add the arm.txt and the 
 # cortex-m7-hardfloat-sp.txt cross files in the order they appear in the list.
 # 
-# Options: 	arm:cortex-m7-hardfloat-sp:st-nucleo-f767zi:bare-metal:c11 (default)
-# 			arm:cortex-m7-hardfloat-sp:st-nucleo-f767zi:freertos:c11
+# Options: 	See the supported cross targets in the main README.
 #
 CROSS ?=
 
