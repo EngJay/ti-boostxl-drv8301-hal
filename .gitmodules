@@ -1,0 +1,6 @@
+[submodule "build-systems"]
+	path = build-systems
+	url = https://github.com/EngJay/build-systems
+[submodule "ext/embedded-hal-c"]
+	path = subprojects/embedded-hal-c
+	url = git@github.com:EngJay/embedded-hal-c.git

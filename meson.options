@@ -1,0 +1,27 @@
+option('enable-segger-systemview',
+    type: 'boolean',
+    value: false)
+
+option('enable-uart-logging',
+    type: 'boolean',
+    value: false)
+
+option('disable-builtins', 
+    type: 'boolean',
+    value: false,
+    description: 'Tell the compiler not to generate builtin functions.',
+    yield: true)
+
+option('disable-stack-protection', 
+    type: 'boolean',
+    value: true,
+    description: 'Tell the compiler not to insert stack protection calls.', 
+    yield: true)
+
+option('enable-pedantic',
+    type: 'boolean',
+    value: false)
+    
+option('enable-pedantic-error',
+    type: 'boolean',
+    value: false)
